@@ -423,3 +423,6 @@ storage_df = pd.DataFrame.from_dict(storage_dict, orient='index', columns=['VALI
 
 #Convert the dataframe into csv file#
 storage_df.to_csv("/Users/sk/Desktop/Challenge/CSV/Exeter_Data.csv")
+
+#Print the first 17 rows
+storage_df.head(17)   
